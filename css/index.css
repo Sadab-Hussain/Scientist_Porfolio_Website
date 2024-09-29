@@ -9,9 +9,7 @@
   --title-color: #565758;
   --p-color: #717275;
   --border-color: #eaeaea;
-
   --body-font-family: 'Open Sans', sans-serif;
-
   --h1-font-size: 48px;
   --h2-font-size: 36px;
   --h3-font-size: 32px;
@@ -20,7 +18,6 @@
   --h6-font-size: 22px;
   --p-font-size: 18px;
   --menu-font-size: 16px;
-
   --font-weight-light: 300;
   --font-weight-normal: 400;
   --font-weight-semibold: 600;
@@ -494,7 +491,7 @@ strong {
 .galleryImage {
   width: 100%;
   transition: all 0.2s ease-in-out;
-  animation: continuousMove 5s infinite ease-in-out; /* Continuous animation */
+  animation: continuousMove 5s infinite ease-in-out;
 }
 
 @keyframes continuousMove {
@@ -931,6 +928,12 @@ strong {
 
 .site-footer {
   background: var(--section-bg-color);
+}
+
+.list-unstyled{
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
 }
 
 .copyright-text {
