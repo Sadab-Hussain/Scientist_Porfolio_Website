@@ -208,8 +208,8 @@ strong {
   color: var(--p-color);
   font-weight: var(--font-weight-semibold);
   font-size: var(--menu-font-size);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .navbar-nav .nav-item.active .nav-link,
@@ -289,8 +289,33 @@ strong {
 }
 
 /*---------------------------------------
-  ANIMATED TEXT              
+  HERO & ANIMATED TEXT              
 -----------------------------------------*/
+.hero {
+  padding-top: rem;
+}
+
+.hero .container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  max-height: 600px;
+}
+
+.heroText {
+  background: var(--white-color);
+  position:absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  padding: 1rem 1rem;
+  width: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-phone {
+  font-weight: var(--font-weight-semibold);
+}
 
 .animated {
   position: relative;
@@ -300,14 +325,11 @@ strong {
   display: inline-block;
   vertical-align: top;
   min-width: 250px;
-  position: relative;
+  position:relative;
 }
 
 .animated-item {
   color: var(--primary-color);
-}
-
-.animated-item {
   display: block;
   opacity: 0;
   overflow: hidden;
@@ -358,39 +380,6 @@ strong {
   100% {
     opacity: 0;
   }
-}
-
-/*---------------------------------------
-  HERO              
------------------------------------------*/
-.hero {
-  padding-top: rem;
-}
-
-.hero .container {
-  position: relative;
-  overflow: hidden;
-  height: 600px;
-}
-
-.heroText {
-  background: var(--white-color);
-  position:absolute;
-  z-index: 2;
-  bottom: 0;
-  right: 0;
-  padding: 1.5rem 2.5rem;
-  width: 50%;
-  transition: all 0.5s ease-in-out;
-}
-
-.heroText:hover {
-  border-radius: 50px;
-  transform: scale(1.05); 
-  box-shadow: 0 8px 30px rgba(0, 123, 255, 0.5); 
-}
-.contact-phone {
-  font-weight: var(--font-weight-semibold);
 }
 
 /*---------------------------------------
