@@ -387,8 +387,8 @@ strong {
 -----------------------------------------*/
 .featured-circle {
   border-radius: 100%;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
   padding: 0 20px;
   background-color: rgba(0, 123, 255, 0.1);
@@ -425,8 +425,8 @@ strong {
   border-radius: 100%;
   top: -10px;
   left: -10px;
-  width: 370px;
-  height: 370px;
+  width: 350px;
+  height: 350px;
   border: 2px solid rgba(0, 123, 255, 0.3);
   opacity: 5;
   animation: pulseBorder 4s infinite ease-in-out;
@@ -470,7 +470,7 @@ strong {
 
 
 /*---------------------------------------
-  Gallery               
+  GALLERY               
 -----------------------------------------*/
 
 .gallery {
@@ -502,7 +502,7 @@ strong {
 }
 
 /*---------------------------------------
-  Work               
+  WORK              
 -----------------------------------------*/
 
 .Work,
@@ -800,7 +800,7 @@ strong {
 }
 
 /*---------------------------------------
-  expertise            
+  EXPERTISE            
 -----------------------------------------*/
 
 .expertise-section {
@@ -846,7 +846,7 @@ strong {
 }
 
 /*---------------------------------------
-  network FORM            
+  NETWORK FORM  & COLLABORATION           
 -----------------------------------------*/
 
 .network-form .form-control {
